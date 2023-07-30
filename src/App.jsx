@@ -49,7 +49,11 @@ function App() {
     };
 
     if (subscribed) {
-      fetchData(artWorkTypeId);
+      if (artWorkTypeId === undefined) {
+        fetchData(1)
+      } else {
+        fetchData(artWorkTypeId);
+      }
     }
 
     return () => {
@@ -80,7 +84,7 @@ function App() {
             </NavLink>
           </div>
           <div className="type-of-art">
-            { artWorkTypeId === "1" ? <h2>Paintings</h2> : null }
+            { artWorkTypeId === "1" || artWorkTypeId === undefined ? <h2>Paintings</h2> : null }
             { artWorkTypeId === "14" ? <h2>Drawings</h2> : null }
             { artWorkTypeId === "18" ? <h2>Prints & Drawings</h2> : null }
             { artWorkTypeId === "3" ? <h2>Sculptures</h2> : null }
