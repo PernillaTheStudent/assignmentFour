@@ -142,3 +142,12 @@
   border-color: #BFA054;
   background-color: #f5efe1;
 }
+
+.footer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0.4rem 12rem 0.8rem;
+}
+

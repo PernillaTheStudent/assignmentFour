@@ -27,7 +27,7 @@ function App() {
             body: JSON.stringify({
               query: {
                 term: {
-                  artwork_type_id: id, 
+                  artwork_type_id: id,
                 },
               },
             }),
@@ -71,7 +71,6 @@ function App() {
           </header>
           <div className="menu">
             <NavLink className="tab" to="/paintings/1">
-              {/* <h3><span style={{ color: "#C77C3F" }}>♥</span> Paintings</h3> */}
               <h3><span style={{ color: 'rgb(199, 124, 63)' }}>&#x2665;</span> Paintings</h3>
             </NavLink>
             <NavLink className="tab" to="/drawings/14">
@@ -85,10 +84,10 @@ function App() {
             </NavLink>
           </div>
           <div className="type-of-art">
-            { artWorkTypeId === "1" || artWorkTypeId === undefined ? <h2>Paintings</h2> : null }
-            { artWorkTypeId === "14" ? <h2>Drawings</h2> : null }
-            { artWorkTypeId === "18" ? <h2>Prints & Drawings</h2> : null }
-            { artWorkTypeId === "3" ? <h2>Sculptures</h2> : null }
+            {artWorkTypeId === "1" || artWorkTypeId === undefined ? <h2>Paintings</h2> : null}
+            {artWorkTypeId === "14" ? <h2>Drawings</h2> : null}
+            {artWorkTypeId === "18" ? <h2>Prints & Drawings</h2> : null}
+            {artWorkTypeId === "3" ? <h2>Sculptures</h2> : null}
           </div>
           <div className="content">
 
@@ -103,6 +102,9 @@ function App() {
                 </>
               })}
           </div>
+        </div>
+        <div className="footer">
+          <NavLink to="https://www.figma.com/community/file/1148855963126865475">Based on NickelFox design</NavLink>
         </div>
       </div>
     </>

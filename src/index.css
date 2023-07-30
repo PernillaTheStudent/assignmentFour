@@ -41,13 +41,21 @@ body {
 }
 
 a {
-  font-weight: 500;
+  font-weight: 400;
   color: #2f2f2f;
   text-decoration: inherit;
 }
 
 a:hover {
   color: #BFA054;
+}
+
+.footer a {
+  color: #f4eee0;
+  font-size: 1.2rem;
+}
+.footer a:hover {
+  color: #fbf8f2;
 }
 
 h1 {
