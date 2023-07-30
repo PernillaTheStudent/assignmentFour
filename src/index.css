@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap');
+
+:root {
+  font-family: "Kantumruy Pro", Helvetica, sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #2f2f2f;
+  background-color: #fbf8f2;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+/* inherit box-sizing from .html */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 500;
+  color: #2f2f2f;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #BFA054;
+}
+
+h1 {
+  color: #2f2f2f;
+  font-family: "DM Serif Display", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+h2 {
+  color: #2f2f2f;
+  font-family: "DM Serif Display", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin: 8px 0 0;
+}
+
+.type-of-art h2 {
+  color: #BFA054;
+}
+
+.header h3 {
+  color: #858585;
+  font-family: "Kantumruy Pro", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  line-height: 14px;
+  margin-top: 4px;
+}
+
+.menu h3 {
+  color: #2f2f2f;
+  font-family: "Kantumruy Pro", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.28px;
+  line-height: 14px;
+  white-space: nowrap;
+}
+
+.artist h3 {
+  color: #858585;
+  font-family: "Kantumruy Pro", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  line-height: 14px;
+  margin-top: 4px;
+}
+
+button {
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Kantumruy Pro", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-align: center;
+  background-color: #2f2f2f;
+  border-radius: 4px;
+  height: 28px;
+  width: 74px;
+  border: none;
+}
+
+button:hover {
+  background-color:  #BFA054;
+}
+
+button:focus,
+button:focus-visible {
+  background-color:  #BFA054;
+  /* outline: 4px auto -webkit-focus-ring-color; */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* color: #213547;
+    background-color: #ffffff; */
+  }
+}

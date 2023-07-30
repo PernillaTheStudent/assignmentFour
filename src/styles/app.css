@@ -1,0 +1,144 @@
+.main-wrapper {
+  align-items: flex-start;
+  background-color: #94826B;
+  background: url(../../public/art-bg.svg),
+    linear-gradient(#94826B, #B5A898);
+  background-repeat: space;
+  border: 1px none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 1188px;
+  min-width: 551px;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: #fbf8f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 80vw;
+  align-items: center;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  margin: 0.8rem 0;
+}
+
+.header {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  justify-content: left;
+  padding: 0.8rem 0.8rem;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  flex-grow: 1;
+  justify-content: left;
+  padding: 0.8rem 0.4rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.type-of-art {
+  display: flex;
+  width: 100%;
+  font-style: italic;
+  padding: 0.4rem 1.2rem;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.tab {
+  border: 1px solid;
+  border-color: #e3d4b5;
+  border-radius: 10px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  height: 38px;
+  justify-content: center;
+  padding: 2px 24px;
+  align-items: center;
+  margin: 0.4rem 0.4rem;
+}
+
+.active {
+  background-color: #f5efe1;
+  border: 1px solid;
+  border-color: #bfa054;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px #0000000a;
+}
+
+.art-wrapper {
+  /* height: 282px; */
+  position: relative;
+  width: 177px;
+  /* margin: 0.8rem 0.4rem; */
+  display: flex;
+  flex-basis: 190px;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.art-frame {
+  background-color: #f4eee0;
+  border-radius: 10px;
+  width: 177px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frame-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1rem 0.8rem 0.8rem;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.art-pic {
+  height: 176px;
+  width: 153px;
+  background-color: lightgray;
+  /* opacity: 0.1; */
+  border-radius: 10px;
+  display: flex;
+  object-fit: cover;
+}
+
+.artist {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0.4rem;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.view-button {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+.menu a.tab:hover,
+.menu a.tab:hover:link,
+.menu a.tab:hover:visited {
+  border-color: #BFA054;
+  background-color: #f5efe1;
+}
