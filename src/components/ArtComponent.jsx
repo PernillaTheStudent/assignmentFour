@@ -68,7 +68,7 @@ const ArtComponent = ({ apiLink, thumbnail, title }) => {
                     <img className="art-pic" alt="Art item" src={imageUrl} />
                     <div className="artist">
                         <h2>{shortenedTitle}</h2>
-                        <h3>{`By ${artPiece.artist_title}`}</h3>
+                        {artPiece.artist_title&& <h3>{`By ${artPiece.artist_title}`}</h3>}
                     </div>
                     <div className="view-button">
                         <button>View</button>
