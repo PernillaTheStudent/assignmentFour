@@ -71,16 +71,17 @@ function App() {
           </header>
           <div className="menu">
             <NavLink className="tab" to="/paintings/1">
-              <h3><span style={{ color: "#C77C3F" }}>♥</span> Paintings</h3>
+              {/* <h3><span style={{ color: "#C77C3F" }}>♥</span> Paintings</h3> */}
+              <h3><span style={{ color: 'rgb(199, 124, 63)' }}>&#x2665;</span> Paintings</h3>
             </NavLink>
             <NavLink className="tab" to="/drawings/14">
-              <h3><span style={{ color: "#BFA054" }}>♦</span> Drawings</h3>
+              <h3><span style={{ color: "#BFA054" }}>&#x2666;</span> Drawings</h3>
             </NavLink>
             <NavLink className="tab" to="/prints/18">
-              <h3><span style={{ color: "#767943" }}>♣</span> Prints</h3>
+              <h3><span style={{ color: "#767943" }}>&#x2663;</span> Prints</h3>
             </NavLink>
             <NavLink className="tab" to="/sculptures/3">
-              <h3><span style={{ color: "#D9A739" }}>♠</span> Sculptures</h3>
+              <h3><span style={{ color: "#D9A739" }}>&#x2660;</span> Sculptures</h3>
             </NavLink>
           </div>
           <div className="type-of-art">
